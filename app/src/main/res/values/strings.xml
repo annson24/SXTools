@@ -11,19 +11,10 @@
     <string name="config_category_restore">Restore default</string>
     <string name="config_primary_payload_description">You can use your own, previously downloaded, payload.</string>
     <string name="config_primary_payload_button">Select primary payload</string>
-    <string name="config_restore_description">Restore default payload on your Switch - \"SXOS.bin\"</string>
+    <string name="config_restore_description">Restore default payload on your Switch - \"SXOS\"</string>
     <string name="config_restore_button">Restore default</string>
     <string name="config_toast_restored">Default payload restored.</string>
     <string name="config_toast_new_payload">New payload selected.</string>
     <string name="config_toast_new_error">Failed to set new payload.</string>
 
-    <!-- Strings for About -->
-    <string name="about_title">About</string>
-    <string name="about_category_description">Description</string>
-    <string name="about_category_instructions">Instructions</string>
-    <string name="about_category_links">Links</string>
-    <string name="about_description">SXTools by annson24\n \nThis version of NXLoader is modded to have SX Launcher v1.0 payload as default.\n \nHuge thanks to DavidBuchanan314 for the source.\n \nSXTools is an exploit implementation for the Tegra X1 \"bootrom\" vulnerability. It is based on the \"Fusée Gelée\" exploit by ktemkin and the \"ShofEL2\" exploit by fail0verflow.</string>
-    <string name="about_instructions">Connect your Switch and put it in RCM mode to start loading.</string>
-    <string name="about_link_github">Project on GitHub</string>
-    <string name="about_link_SX">Team Xecuter Website</string>
 </resources>

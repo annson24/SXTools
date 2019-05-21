@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         logFragment = new FragmentLogs();
         adapter.addFragment(logFragment, getString(R.string.logs_title));
         adapter.addFragment(new FragmentConfig(), getString(R.string.config_title));
-        adapter.addFragment(new FragmentAbout(), getString(R.string.about_title));
         viewPager.setAdapter(adapter);
 
         TabLayout tabLayout = findViewById(R.id.main_tabs);
@@ -75,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         editor.apply();
 
         Toast.makeText(this, R.string.config_toast_restored, Toast.LENGTH_SHORT).show();
-        Logger.log(this, "[*] Payload reset to default (SXOS.bin)");
+        Logger.log(this, "[*] Payload reset to default (SXOS)");
     }
 
     // After payload selected

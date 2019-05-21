@@ -135,7 +135,7 @@ public class PrimaryLoader implements USBDevHandler {
 
         if (payload_name == null) {
             Logger.log(context, "[*] Opening SXOS payload");
-            payload_file = context.getAssets().open("SXOS.bin");
+            payload_file = context.getAssets().open("payload.bin");
         } else {
             Logger.log(context, "[*] Opening custom payload (" + payload_name + ")");
             payload_file = new FileInputStream(context.getFilesDir().getPath() + "/payload.bin");
